@@ -1,7 +1,7 @@
 {
-  "name": "template",
+  "name": "@minecraft-js/yggdrasil",
   "version": "1.0.0",
-  "description": "todo: change",
+  "description": "Yggdrasil wrapper written in TypeScript",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,19 +9,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MinecraftJS/template.git"
+    "url": "git+https://github.com/MinecraftJS/Yggdrasil.git"
   },
   "keywords": [
     "minecraftjs"
   ],
-  "author": "todo: change",
+  "author": "RichardDorian",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MinecraftJS/template/issues"
+    "url": "https://github.com/MinecraftJS/Yggdrasil/issues"
   },
-  "homepage": "https://github.com/MinecraftJS/template#readme",
-  "dependencies": {},
+  "homepage": "https://github.com/MinecraftJS/Yggdrasil#readme",
+  "dependencies": {
+    "@minecraft-js/uuid": "^1.0.3"
+  },
   "devDependencies": {
+    "@types/node": "^18.7.18",
     "prettier": "^2.7.1",
     "typescript": "^4.8.2"
   },
